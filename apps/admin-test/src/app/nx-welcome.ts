@@ -16,17 +16,28 @@ import { Button } from '@angular-demo/design-system';
     <style>
       html {
         -webkit-text-size-adjust: 100%;
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-          'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-          'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        font-family:
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          'Helvetica Neue',
+          Arial,
+          'Noto Sans',
+          sans-serif,
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
           'Noto Color Emoji';
         line-height: 1.5;
         tab-size: 4;
         scroll-behavior: smooth;
       }
       body {
-        font-family: Roboto;
-        line-height: Roboto;
+        font-family: inherit;
+        line-height: inherit;
         margin: 0;
       }
       h1,
@@ -45,15 +56,16 @@ import { Button } from '@angular-demo/design-system';
       }
       h1,
       h2 {
-        font-size: Roboto;
-        font-weight: Roboto;
+        font-size: inherit;
+        font-weight: inherit;
       }
       a {
-        color: Roboto;
-        text-decoration: Roboto;
+        color: inherit;
+        text-decoration: inherit;
       }
       pre {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           'Liberation Mono', 'Courier New', monospace;
       }
       svg {
@@ -68,13 +80,17 @@ import { Button } from '@angular-demo/design-system';
         background-color: rgba(55, 65, 81, 1);
         border-radius: 0.25rem;
         color: rgba(229, 231, 235, 1);
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           'Liberation Mono', 'Courier New', monospace;
         overflow: auto;
         padding: 0.5rem 0.75rem;
       }
       .shadow {
-        box-shadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        box-shadow:
+          0 0 #0000,
+          0 0 #0000,
+          0 10px 15px -3px rgba(0, 0, 0, 0.1),
           0 4px 6px -2px rgba(0, 0, 0, 0.05);
       }
       .rounded {
@@ -146,7 +162,7 @@ import { Button } from '@angular-demo/design-system';
         display: inline-block;
         margin-top: 1.5rem;
         padding: 1rem 2rem;
-        text-decoration: Roboto;
+        text-decoration: inherit;
       }
       #hero .logo-container {
         display: none;
@@ -186,8 +202,17 @@ import { Button } from '@angular-demo/design-system';
         display: flex;
         margin-top: 1rem;
         padding: 1rem;
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 150ms;
@@ -196,8 +221,17 @@ import { Button } from '@angular-demo/design-system';
       .list-item-link svg:first-child {
         margin-right: 1rem;
         height: 1.5rem;
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 150ms;
@@ -206,8 +240,17 @@ import { Button } from '@angular-demo/design-system';
       .list-item-link > span {
         flex-grow: 1;
         font-weight: 400;
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
@@ -218,8 +261,17 @@ import { Button } from '@angular-demo/design-system';
         font-size: 0.75rem;
         font-weight: 300;
         line-height: 1rem;
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
@@ -246,16 +298,34 @@ import { Button } from '@angular-demo/design-system';
         padding: 1.5rem 2rem;
         margin-bottom: 2rem;
         transition-duration: 300ms;
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         align-items: center;
         display: flex;
       }
       .button-pill svg {
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 150ms;
@@ -345,7 +415,7 @@ import { Button } from '@angular-demo/design-system';
         margin-top: 1.5rem;
         padding: 0.5rem 1rem;
         text-align: left;
-        text-decoration: Roboto;
+        text-decoration: inherit;
       }
 
       #commands {
@@ -385,8 +455,17 @@ import { Button } from '@angular-demo/design-system';
         font-weight: 400;
         padding: 0.5rem;
         cursor: pointer;
-        transition-property: background-color, border-color, color, fill, stroke,
-          opacity, box-shadow, transform, filter, backdrop-filter,
+        transition-property:
+          background-color,
+          border-color,
+          color,
+          fill,
+          stroke,
+          opacity,
+          box-shadow,
+          transform,
+          filter,
+          backdrop-filter,
           -webkit-backdrop-filter;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-duration: 150ms;
@@ -431,10 +510,10 @@ import { Button } from '@angular-demo/design-system';
       <div class="container">
         <!--  WELCOME  -->
         <div id="welcome">
-          <lib-button variant="secondary">Save</lib-button>
           <h1>
+            <lib-button variant="secondary">Save</lib-button>
             <span> Hello there, </span>
-            Welcome angular-demo 👋
+            Welcome admin-test 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -741,14 +820,13 @@ import { Button } from '@angular-demo/design-system';
                   <span> Enable faster CI & better DX </span>
                 </h2>
               </div>
-              <p>Your Nx Cloud remote cache setup is almost complete.</p>
-
+              <p>Your workspace is connected to Nx Cloud.</p>
               <a
-                href="https://cloud.nx.app/connect/sKAv9EpS8d"
+                href="https://nx.dev/ci/intro/ci-with-nx#learn-about-nx-on-ci"
                 target="_blank"
                 rel="noreferrer"
               >
-                Click here to finish
+                Learn about Nx on CI
               </a>
             </div>
           </div>
@@ -800,7 +878,7 @@ nx run-many -t build test lint</pre>
               </svg>
               View project details
             </summary>
-            <pre>nx show project angular-demo</pre>
+            <pre>nx show project admin-test</pre>
           </details>
 
           <details>
