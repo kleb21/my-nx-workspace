@@ -1,0 +1,22 @@
+[22:49:28.572] [INFO] storybook v10.2.4
+[22:49:29.727] [DEBUG] Getting package.json info for /home/caleb/my-nx-workspace/package.json...
+[22:49:30.505] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
+[22:49:30.684] [INFO] Starting...
+[22:49:30.897] [DEBUG] Starting preview..
+[22:49:30.907] [INFO] Using implicit CSS loaders
+[22:49:30.909] [ERROR] Failed to build the preview
+[22:49:30.912] [ERROR] [38;2;241;97;97mSB_FRAMEWORK_ANGULAR_0001 (AngularLegacyBuildOptionsError): Your Storybook startup script uses a solution that is not supported anymore.
+You must use Angular builder to have an explicit configuration on the project used in angular.json.
+
+Please run 'npx storybook automigrate' to automatically fix your config.
+
+More info: 
+	- https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular-drop-support-for-calling-storybook-directly
+	- https://github.com/storybookjs/storybook/tree/next/code/frameworks/angular#how-do-i-migrate-to-an-angular-storybook-builder
+[39m
+    at checkForLegacyBuildOptions (file:///home/caleb/my-nx-workspace/node_modules/@storybook/angular/dist/server/framework-preset-angular-cli.js:310:11)
+    at Object.webpackFinal (file:///home/caleb/my-nx-workspace/node_modules/@storybook/angular/dist/server/framework-preset-angular-cli.js:244:3)
+    at file:///home/caleb/my-nx-workspace/node_modules/storybook/dist/_node-chunks/chunk-XS27F6LV.js:10114:36
+[22:49:30.918] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[22:49:33.865] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":true}
